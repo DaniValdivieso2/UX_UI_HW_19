@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poly', serif;
+    font-family: 'Urbanist', sans-serif;
+}
+
+nav {
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 60px;
+    margin: 10px;
+}
+.container {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poly, serif';
+}
+.list {
+    padding: 10px;
+    margin: 20px;
+}
+.heroImg {
+    background-image: url(..//Images/HeroMenu.png);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+}
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuOptions {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-area: 
+    "top1 top2 top3 top4"
+    "bot1 bot 2 bot3 bot4";
+}
+.category {
+    font-family: 'Urbanist', sans-serif;
+    padding: 10px;
+}
+.description {
+    font-family: 'Poly', serif;
+    font-style: italic;
+    padding: 10px;
+    inline-size: 280px;
+    overflow-wrap: normal;
+}
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+}
+.bodyImg {
+       background-image: url(..//Images/BodyMenu.png);
+    height: 100%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 800px;
+}
+.footerOptions {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Urbanist', sans-serif;
+}
+.footerChild {
+    padding: 20px 40px;
+}
+footer {
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h4{
+    font-family: 'Poly, serif';
+    font-weight: 300;
+}
+@media only screen and (max-width:600px) {
+    .menuOptions {
+        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-columns: 300px;
+        grid-template-areas: 
+        "top1"
+        "bot1"
+        "top2" 
+        "bot2"
+        "top3" 
+        "bot3"
+        "top4" 
+        "bot4";
+    }
+}

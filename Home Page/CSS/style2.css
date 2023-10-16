@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poly', serif;
+    font-family: 'Urbanist', sans-serif;
+}
+
+nav {
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 60px;
+    margin: 10px;
+}
+.menu{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poly, serif';
+    
+}
+.flexChild {
+    padding: 10px;
+    margin: 20px;
+}
+
+.heroImg {
+    background-image: url(..//Images/HeroImg\ Homepage.png);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+}
+.statement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h3 {
+    font-family: 'Urbanist', sans-serif;
+    color: #6D6E70;
+    font-size: medium;
+    font-weight: 400;
+}
+p {
+    font-family: 'Poly, serif';
+    width: 70%;
+}
+.imageGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.locContainer {
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.locChild {
+    margin: 20px;
+}
+.map {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.footerOptions {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Urbanist', sans-serif;
+}
+.footerChild {
+    padding: 20px 40px;
+}
+footer {
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h4{
+    font-family: 'Poly, serif';
+    font-weight: 300;
+}
+.mapAddress {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Urbanist', sans-serif;
+}
