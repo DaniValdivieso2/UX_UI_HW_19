@@ -85,9 +85,14 @@ p {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+
 }
 .locChild {
     margin: 20px;
+    border-bottom: 1px solid grey;
+}
+.locChild:hover {
+    background-color: lightgray;
 }
 .map {
     margin-bottom: 30px;
