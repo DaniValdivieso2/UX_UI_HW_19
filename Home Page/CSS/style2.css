@@ -126,3 +126,6 @@ h4{
     flex-direction: row;
     font-family: 'Urbanist', sans-serif;
 }
+h5{
+    font-size: small;
+}
