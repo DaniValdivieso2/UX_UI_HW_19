@@ -1,9 +1,8 @@
 $(document).ready(function() {
     $(".locContainer a").tabs({
         active: false,
-        collapsible: false
+        collapsible: true
     });
-    $(".locContainer a").first().on("click");
 });
   
 var helloWorld = 'HelloWorld!'
